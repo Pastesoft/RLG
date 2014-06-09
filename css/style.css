@@ -91,7 +91,7 @@ a:hover {
 /*---------------------------------- Vitas Adjustments----------------------*/
 
 .icon{
-	width:30%;
+	width:100px;
 	padding:2%;
 }
 
@@ -976,12 +976,6 @@ div.cform-response-output {
 	-webkit-border-radius: 4px;
 }
 
-/* google map */
-#map {
-	height: 500px;
-}
-
-
 /*====================
   Clients
 ==================== */
@@ -999,13 +993,18 @@ div.cform-response-output {
  ================= */
 
 section#footer {
-	background: #242424;
+	background: rgba(36, 36, 36, 0.7);
 	margin: 0;
 }
 
 section#footer .copyright {
 	text-align: center;
 	color:#e1e1e1;
+}
+
+section#footer .foot-link {
+	text-shadow: 1px 1px 1px #000;
+	font-weight: bolder;
 }
 
 /* footer social icons */
@@ -1267,7 +1266,7 @@ Media queries
 	}
 	
 	.icon{
-		width:20%;
+		width:100px;
 		padding:2%;
 	}
 	
